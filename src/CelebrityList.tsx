@@ -34,6 +34,7 @@ export const CelebrityList = () => {
 
   return (
     <div className="celebrity-list-main">
+      <h1 className="title">Celebrity App</h1>
       <input
         className="search-users"
         placeholder="Search for user"
