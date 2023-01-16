@@ -139,7 +139,11 @@ export const Accordian = (props: any) => {
             id={`panel${item.id}bh-header`}
           >
             <div className="accordian-summary">
-              <img className="celebrity-icon" src={item.picture} />
+              <img
+                className="celebrity-icon"
+                src={item.picture}
+                alt="celebrity-img"
+              />
               {editMode ? (
                 <input
                   pattern="[a-zA-Z]*"
